@@ -59,7 +59,7 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = _get_int("API_ID" "35585958")
+API_ID = _get_int("API_ID")
 API_HASH = getenv("API_HASH", "5c3e3e9cca5b0cf55845e0be1410f8b2")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 OWNER_ID = _get_int_list("OWNER_ID")

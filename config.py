@@ -59,10 +59,10 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = _get_int("35585958")
+API_ID = _get_int("API_ID" "35585958")
 API_HASH = getenv("API_HASH", "5c3e3e9cca5b0cf55845e0be1410f8b2")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = _get_int_list("5953067512")
+OWNER_ID = _get_int_list("OWNER_ID", "5953067512")
 MONGO_DB = getenv("MONGO_DB", "")
 LOG_GROUP = getenv("LOG_GROUP", "-1003932170332")
 CHANNEL_ID = _get_int("-1004335653665")
